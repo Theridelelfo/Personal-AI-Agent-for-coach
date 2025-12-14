@@ -1,5 +1,7 @@
 # Personal-AI-Agent-for-coach
 Progetto per Agent AI usando Gemma su colab
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<utente>/<repo>/blob/main/launcher.ipynb)
+
 
 ## 🎯 Obiettivo
 
