@@ -4,6 +4,9 @@ Progetto per Agent AI usando Gemma su colab
 ## 🎯 Obiettivo
 
 Costruire un **Agent AI modulare** e **riproducibile** che:
+
+# La parte sottostante è da verificare
+
 - esegue **inferenza** e **fine‑tuning leggero (LoRA/PEFT)** su modelli open (es. Gemma),
 - funziona **subito** in Google **Colab** (senza setup complesso),
 - separa le responsabilità in **moduli** (es. `inference`, `finetune`) e **micromoduli** riusabili (`drive`, `db_sqlite`, `utils`),
