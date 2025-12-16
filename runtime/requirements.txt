@@ -1,0 +1,29 @@
+# ==========================================================
+# Dipendenze Essenziali per l'Agent AI
+# ==========================================================
+
+# 1. LLM e Interfacciamento
+# La libreria specifica per l'esecuzione di modelli GGUF (come Llama 2/3) in C++
+# Il flag 'upgrade' nella Cella 1 gestirà l'aggiornamento, ma è bene includerla qui:
+llama-cpp-python
+
+# 2. Framework Agent / Orchestrazione (Scegliere uno o più)
+# Questi forniscono la logica per collegare l'LLM ai Tools e alla Memoria.
+langchain
+# oppuure
+# crewai
+# oppuure
+# autogen 
+
+# 3. Gestione del Database (SQLite)
+# SQLite è integrato in Python, ma spesso servono driver ORM o utility
+# per interfacciarsi in modo più robusto (es. con LangChain Memory):
+SQLAlchemy
+pydantic # Spesso usato per la validazione dei dati e la tipizzazione negli Agent Frameworks
+
+# 4. Utilità Generali e Gestione Dati
+pandas # Per la manipolazione e l'analisi dei dati (comune nei tool)
+numpy  # Fondamentale per le operazioni matematiche e vettoriali
+
+# 5. Strumenti Aggiuntivi per il Setup e lo Sviluppo
+python-dotenv # Utile per caricare variabili d'ambiente (chiavi API) dal file .env (se lo usi)
