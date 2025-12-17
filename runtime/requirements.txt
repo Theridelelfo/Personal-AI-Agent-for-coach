@@ -19,11 +19,11 @@ langchain
 # SQLite è integrato in Python, ma spesso servono driver ORM o utility
 # per interfacciarsi in modo più robusto (es. con LangChain Memory):
 SQLAlchemy
-pydantic # Spesso usato per la validazione dei dati e la tipizzazione negli Agent Frameworks
+# pydantic  Spesso usato per la validazione dei dati e la tipizzazione negli Agent Frameworks
 
 # 4. Utilità Generali e Gestione Dati
-pandas # Per la manipolazione e l'analisi dei dati (comune nei tool)
-numpy  # Fondamentale per le operazioni matematiche e vettoriali
+#pandas  Per la manipolazione e l'analisi dei dati (comune nei tool)
+#numpy   Fondamentale per le operazioni matematiche e vettoriali
 
 # 5. Strumenti Aggiuntivi per il Setup e lo Sviluppo
 python-dotenv # Utile per caricare variabili d'ambiente (chiavi API) dal file .env (se lo usi)
